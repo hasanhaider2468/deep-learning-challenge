@@ -4,7 +4,10 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
 
+
+
 EIN and NAME —Identification columns
+
 APPLICATION_TYPE —Alphabet Soup application type
 AFFILIATION —Affiliated sector of industry
 CLASSIFICATION —Government organization classification
