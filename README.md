@@ -9,15 +9,25 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 EIN and NAME —Identification columns
 
 APPLICATION_TYPE —Alphabet Soup application type
+
 AFFILIATION —Affiliated sector of industry
+
 CLASSIFICATION —Government organization classification
+
 USE_CASE —Use case for funding
+
 ORGANIZATION —Organization type
+
 STATUS —Active status
+
 INCOME_AMT —Income classification
+
 SPECIAL_CONSIDERATIONS —Special consideration for application
+
 ASK_AMT —Funding amount requested
+
 IS_SUCCESSFUL —Was the money used effectively
+
 Instructions
 Step 1: Preprocess the Data
 Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
@@ -38,6 +48,7 @@ Use the number of data points for each unique value to pick a cutoff point to bi
 Use pd.get_dummies() to encode categorical variables.
 
 Step 2: Compile, Train, and Evaluate the Model
+
 Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
 
 Continue using the Jupyter Notebook in which you performed the preprocessing steps from Step 1.
